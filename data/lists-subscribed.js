@@ -1,1 +1,1 @@
-window.YTD.lists_subscribed.part0 = []
+window.YTD.lists_subscribed.part0 = [ ]

@@ -1,1 +1,1 @@
-window.YTD.periscope_profile_description.part0 = []
+window.YTD.periscope_profile_description.part0 = [ ]

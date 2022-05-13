@@ -1,1 +1,1 @@
-window.YTD.user_link_clicks.part0 = []
+window.YTD.user_link_clicks.part0 = [ ]

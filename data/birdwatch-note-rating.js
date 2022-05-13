@@ -1,1 +1,1 @@
-window.YTD.birdwatch_note_rating.part0 = []
+window.YTD.birdwatch_note_rating.part0 = [ ]
