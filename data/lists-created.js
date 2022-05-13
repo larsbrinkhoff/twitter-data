@@ -1,1 +1,1 @@
-window.YTD.lists_created.part0 = []
+window.YTD.lists_created.part0 = [ ]

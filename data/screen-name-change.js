@@ -1,1 +1,1 @@
-window.YTD.screen_name_change.part0 = []
+window.YTD.screen_name_change.part0 = [ ]

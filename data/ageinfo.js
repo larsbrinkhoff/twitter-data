@@ -1,3 +1,5 @@
-window.YTD.ageinfo.part0 = [ {
-  "ageMeta" : { }
-} ]
+window.YTD.ageinfo.part0 = [
+  {
+    "ageMeta" : { }
+  }
+]
