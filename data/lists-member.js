@@ -11,12 +11,12 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/0xdky/lists/tech-sci-news-37197"
+      "url" : "https://twitter.com/Mire1a/lists/hw-radio-signals-rel"
     }
   },
   {
     "userListInfo" : {
-      "url" : "https://twitter.com/Mire1a/lists/hw-radio-signals-rel"
+      "url" : "https://twitter.com/Je6Whx/lists/innovation"
     }
   },
   {

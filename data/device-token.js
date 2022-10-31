@@ -1,15 +1,6 @@
 window.YTD.device_token.part0 = [
   {
     "deviceToken" : {
-      "clientApplicationId" : "49152",
-      "token" : "r1BttYcp3eTxNZuZSQ5dyWUztIl87JngdEVaTSqr",
-      "createdAt" : "2021-04-10T09:55:49.569Z",
-      "lastSeenAt" : "2021-04-10T09:55:49.571Z",
-      "clientApplicationName" : "Mobile Web (Twitter)"
-    }
-  },
-  {
-    "deviceToken" : {
       "clientApplicationId" : "3033300",
       "token" : "AdHxH7oPyHxLD8Apiu1ah1I0VNI4yrLHZ6EaLt12",
       "createdAt" : "2021-05-22T13:05:23.815Z",
@@ -77,6 +68,42 @@ window.YTD.device_token.part0 = [
       "token" : "QS5wpq3OaGY7bZwuRSuo1jgFkMMDuhmHBIPNewJa",
       "createdAt" : "2022-04-16T08:16:22.595Z",
       "lastSeenAt" : "2022-04-16T08:16:22.597Z",
+      "clientApplicationName" : "Twitter Web App (Twitter. Inc)"
+    }
+  },
+  {
+    "deviceToken" : {
+      "clientApplicationId" : "3033300",
+      "token" : "d3wgw9TnH86vxF4c8l4PCGVsFhpyN3PDKNK1ruiQ",
+      "createdAt" : "2022-06-07T16:28:26.046Z",
+      "lastSeenAt" : "2022-06-07T16:28:26.047Z",
+      "clientApplicationName" : "Twitter Web App (Twitter. Inc)"
+    }
+  },
+  {
+    "deviceToken" : {
+      "clientApplicationId" : "3033300",
+      "token" : "L5dbzglzH9xQoOKO3sz3mVgxGLpcfexfehyvPPF8",
+      "createdAt" : "2022-06-22T19:24:17.954Z",
+      "lastSeenAt" : "2022-06-22T19:24:17.956Z",
+      "clientApplicationName" : "Twitter Web App (Twitter. Inc)"
+    }
+  },
+  {
+    "deviceToken" : {
+      "clientApplicationId" : "3033300",
+      "token" : "0ME3LAj9xhc6kdhEJmsMe3JqBxZWM0oek91sN5F1",
+      "createdAt" : "2022-08-09T07:43:53.296Z",
+      "lastSeenAt" : "2022-08-09T07:43:53.298Z",
+      "clientApplicationName" : "Twitter Web App (Twitter. Inc)"
+    }
+  },
+  {
+    "deviceToken" : {
+      "clientApplicationId" : "3033300",
+      "token" : "Kwle2gKO9bKdp5KwV1GI5vwSNzc4mt3Xzhjf2JrW",
+      "createdAt" : "2022-08-27T14:24:29.056Z",
+      "lastSeenAt" : "2022-08-27T14:24:29.058Z",
       "clientApplicationName" : "Twitter Web App (Twitter. Inc)"
     }
   }

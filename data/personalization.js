@@ -8,23 +8,19 @@ window.YTD.personalization.part0 = [
             "isDisabled" : false
           },
           {
-            "language" : "Spanish",
+            "language" : "French",
             "isDisabled" : false
           },
           {
-            "language" : "Dutch",
+            "language" : "No linguistic content",
             "isDisabled" : false
           },
           {
-            "language" : "Italian",
+            "language" : "Basque",
             "isDisabled" : false
           },
           {
-            "language" : "Haitian Creole",
-            "isDisabled" : false
-          },
-          {
-            "language" : "Indonesian",
+            "language" : "German",
             "isDisabled" : false
           }
         ],
@@ -34,6 +30,10 @@ window.YTD.personalization.part0 = [
       },
       "interests" : {
         "interests" : [
+          {
+            "name" : "Adele",
+            "isDisabled" : false
+          },
           {
             "name" : "Alexandria Ocasio-Cortez",
             "isDisabled" : true
@@ -111,10 +111,6 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Books",
-            "isDisabled" : true
-          },
-          {
             "name" : "Bread",
             "isDisabled" : true
           },
@@ -159,10 +155,6 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Computer software",
-            "isDisabled" : false
-          },
-          {
             "name" : "Console gaming",
             "isDisabled" : true
           },
@@ -177,10 +169,6 @@ window.YTD.personalization.part0 = [
           {
             "name" : "Daily Mirror",
             "isDisabled" : true
-          },
-          {
-            "name" : "Darts",
-            "isDisabled" : false
           },
           {
             "name" : "Data science",
@@ -219,10 +207,6 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Enable",
-            "isDisabled" : false
-          },
-          {
             "name" : "Entertainment",
             "isDisabled" : true
           },
@@ -231,16 +215,12 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Esports players",
-            "isDisabled" : false
-          },
-          {
-            "name" : "FaZeClan",
-            "isDisabled" : false
-          },
-          {
             "name" : "Facebook",
             "isDisabled" : true
+          },
+          {
+            "name" : "Family & relationships",
+            "isDisabled" : false
           },
           {
             "name" : "Farhad Manjoo",
@@ -261,6 +241,10 @@ window.YTD.personalization.part0 = [
           {
             "name" : "Food",
             "isDisabled" : true
+          },
+          {
+            "name" : "Formula 1",
+            "isDisabled" : false
           },
           {
             "name" : "Formula One Racing",
@@ -291,10 +275,6 @@ window.YTD.personalization.part0 = [
             "isDisabled" : false
           },
           {
-            "name" : "Gaming influencers",
-            "isDisabled" : false
-          },
-          {
             "name" : "George Floyd",
             "isDisabled" : true
           },
@@ -319,8 +299,8 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Home & family",
-            "isDisabled" : true
+            "name" : "Home improvement",
+            "isDisabled" : false
           },
           {
             "name" : "Honeywell",
@@ -339,10 +319,6 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Jaguar",
-            "isDisabled" : false
-          },
-          {
             "name" : "Joe Biden",
             "isDisabled" : true
           },
@@ -351,15 +327,11 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "K-pop",
-            "isDisabled" : false
-          },
-          {
             "name" : "Kamala Harris",
             "isDisabled" : true
           },
           {
-            "name" : "Lendas do Amanhã",
+            "name" : "LISTENERS",
             "isDisabled" : false
           },
           {
@@ -369,6 +341,10 @@ window.YTD.personalization.part0 = [
           {
             "name" : "Linux",
             "isDisabled" : true
+          },
+          {
+            "name" : "Loews Corporation",
+            "isDisabled" : false
           },
           {
             "name" : "Makeup",
@@ -403,6 +379,10 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
+            "name" : "Motorsport",
+            "isDisabled" : false
+          },
+          {
             "name" : "Movie news",
             "isDisabled" : true
           },
@@ -412,10 +392,6 @@ window.YTD.personalization.part0 = [
           },
           {
             "name" : "Movies & TV",
-            "isDisabled" : true
-          },
-          {
-            "name" : "Movies / Tv / Radio",
             "isDisabled" : true
           },
           {
@@ -435,16 +411,16 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "News / Politics",
-            "isDisabled" : true
-          },
-          {
             "name" : "News outlets",
             "isDisabled" : true
           },
           {
             "name" : "Open source",
             "isDisabled" : true
+          },
+          {
+            "name" : "Open-wheel racing",
+            "isDisabled" : false
           },
           {
             "name" : "Patrick Leahy",
@@ -459,12 +435,12 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Political Issues",
+            "name" : "Political figures",
             "isDisabled" : true
           },
           {
-            "name" : "Political figures",
-            "isDisabled" : true
+            "name" : "Political issues",
+            "isDisabled" : false
           },
           {
             "name" : "Politics",
@@ -483,8 +459,8 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Retail",
-            "isDisabled" : true
+            "name" : "Retail industry",
+            "isDisabled" : false
           },
           {
             "name" : "Retirement planning",
@@ -495,7 +471,7 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Russo-Ukrainian conflict",
+            "name" : "S&P 500",
             "isDisabled" : false
           },
           {
@@ -527,24 +503,24 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Software Development",
-            "isDisabled" : true
-          },
-          {
-            "name" : "Stanford University",
-            "isDisabled" : false
-          },
-          {
             "name" : "Stephen King",
             "isDisabled" : true
           },
           {
-            "name" : "TOMORROW X TOGETHER",
+            "name" : "Stocks & indices",
+            "isDisabled" : false
+          },
+          {
+            "name" : "Syracuse University",
             "isDisabled" : false
           },
           {
             "name" : "Tabletop gaming",
             "isDisabled" : true
+          },
+          {
+            "name" : "Target",
+            "isDisabled" : false
           },
           {
             "name" : "Tech industry",
@@ -569,6 +545,10 @@ window.YTD.personalization.part0 = [
           {
             "name" : "Tetris",
             "isDisabled" : true
+          },
+          {
+            "name" : "The Home Depot",
+            "isDisabled" : false
           },
           {
             "name" : "The Lord of the Rings",
@@ -599,10 +579,6 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Virtual reality",
-            "isDisabled" : false
-          },
-          {
             "name" : "WWE Monday Night RAW",
             "isDisabled" : true
           },
@@ -631,18 +607,16 @@ window.YTD.personalization.part0 = [
             "isDisabled" : true
           },
           {
-            "name" : "Zoology",
-            "isDisabled" : false
-          },
-          {
             "name" : "eBay",
             "isDisabled" : true
+          },
+          {
+            "name" : "バック・アロウ",
+            "isDisabled" : false
           }
         ],
         "partnerInterests" : [ ],
         "audienceAndAdvertisers" : {
-          "numAudiences" : "0",
-          "advertisers" : [ ],
           "lookalikeAdvertisers" : [
             "@1etgo_",
             "@360safecenter",
@@ -683,7 +657,6 @@ window.YTD.personalization.part0 = [
             "@SpotifyJP",
             "@SpotifyNL",
             "@Starbucks",
-            "@StarbucksCanada",
             "@SuperMarioRunJP",
             "@TheSandwichBar",
             "@Tinder",
@@ -703,7 +676,7 @@ window.YTD.personalization.part0 = [
             "@cleanmaster_jp",
             "@comico_jp",
             "@houchishoujo",
-            "@inDriverBrasil",
+            "@inDriveBrasil",
             "@mercari_jp",
             "@mercari_wolf",
             "@mercariatte_jp",
@@ -765,9 +738,10 @@ window.YTD.personalization.part0 = [
             "@BushmillsUSA",
             "@BusyTreats",
             "@BuzzFeedNews",
-            "@CAMPFIREjp",
             "@CBRE",
+            "@CIOTechTalk",
             "@CMEGroup",
+            "@CNETCars",
             "@CNN",
             "@CPPInc",
             "@Cadillac",
@@ -867,7 +841,6 @@ window.YTD.personalization.part0 = [
             "@Honda",
             "@Honda_UK",
             "@HoneyMaidSnacks",
-            "@IDGTechTalk",
             "@IFeelPretty",
             "@IPSY",
             "@ITI_Jobs",
@@ -887,7 +860,6 @@ window.YTD.personalization.part0 = [
             "@Jotform",
             "@JustGiving",
             "@KPMG",
-            "@KahoaConsulting",
             "@KalyptusRecrute",
             "@KayJewelers",
             "@Khoros",
@@ -1002,6 +974,7 @@ window.YTD.personalization.part0 = [
             "@Smafi_media",
             "@Snuggle_Bear",
             "@SofteamGroup",
+            "@SolutionStream",
             "@SourceLink",
             "@Spireon",
             "@SpotifyARG",
@@ -1016,6 +989,7 @@ window.YTD.personalization.part0 = [
             "@StJude",
             "@Stadium",
             "@Stamats",
+            "@StarbucksCanada",
             "@StubHub",
             "@Studyo",
             "@Style_Castle",
@@ -1057,7 +1031,6 @@ window.YTD.personalization.part0 = [
             "@VMware",
             "@Valvoline",
             "@Venmo",
-            "@VerizonDeals",
             "@VirginAtlantic",
             "@VisitBritainGCC",
             "@VolvoCarUSA",
@@ -1091,7 +1064,6 @@ window.YTD.personalization.part0 = [
             "@budweiserusa",
             "@business",
             "@buzzfeedpartner",
-            "@careertasu2021",
             "@carsdotcom",
             "@cbasahi",
             "@cdotechnologies",
@@ -1107,7 +1079,7 @@ window.YTD.personalization.part0 = [
             "@dagensnyheter",
             "@digimartnet",
             "@digitalocean",
-            "@digitec_de",
+            "@digitec_ch",
             "@dunkindonuts",
             "@eBay_UK",
             "@eConsultingRH",
@@ -1195,7 +1167,6 @@ window.YTD.personalization.part0 = [
             "@redbull",
             "@redlobster",
             "@reedcouk",
-            "@roadshow",
             "@salesforce",
             "@salesforce_NL",
             "@salesforceiq",
@@ -1217,7 +1188,6 @@ window.YTD.personalization.part0 = [
             "@totalwar",
             "@tradegovuk",
             "@twitcasting_jp",
-            "@ugowallet",
             "@ultabeauty",
             "@vasg4u",
             "@voice_evidence",
@@ -1232,65 +1202,40 @@ window.YTD.personalization.part0 = [
             "@zillow",
             "@zozojp"
           ],
-          "doNotReachAdvertisers" : [ ]
+          "advertisers" : [ ],
+          "doNotReachAdvertisers" : [ ],
+          "catalogAudienceAdvertisers" : [ ],
+          "numAudiences" : "0"
         },
         "shows" : [
-          "60 Minutes",
           "8 Out of 10 Cats",
           "Big Brother Brasil",
           "Blade Runner",
-          "Breaking Bad",
-          "Captain America: The First Avenger",
-          "Castle",
-          "Columbo",
           "Countdown",
-          "Cyber Monday (Argentina only)",
           "Doctor Who",
-          "DuckTales",
-          "Electric Daisy Carnival Las Vegas 2017",
           "Family Guy",
           "Flash",
           "Formula One Racing",
           "Futebol NFL",
           "Futurama",
           "Fútbol Americano de la NFL",
-          "General Election",
           "Gran Hermano Argentina",
-          "His Dark Materials",
-          "Jeopardy!",
-          "Joker (2019)",
           "Lendas do Amanhã",
-          "MLB Baseball",
           "Million Dollar Listing New York",
-          "Mortal Kombat X",
           "NOVA",
-          "Os Simpsons",
-          "Parks and Recreation",
           "Peter Rabbit 2: The Runaway",
-          "Pretty Little Liars",
-          "Que Horas Ela Volta?",
-          "Question Time",
-          "Red Dead Redemption",
-          "Rick and Morty",
           "Seinfeld",
           "Sesame Street",
           "Star Trek",
-          "Star Wars: The Rise of Skywalker",
           "Suits",
           "Tenet",
-          "Terminator: Dark Fate",
+          "The Adventures of Baron Munchausen",
           "The Apprentice",
-          "The Avengers: Endgame",
-          "The Gong Show",
-          "The Simpsons",
-          "The State",
           "The Wizard of Oz",
           "The X-Files",
           "Tiger King (Netflix)",
           "UEFA Champions League Football",
-          "UEFA Champions League: TSG 1899 Hoffenheim-Liverpool FC",
-          "WWE Monday Night RAW",
-          "影踏み"
+          "UEFA Champions League: TSG 1899 Hoffenheim-Liverpool FC"
         ]
       },
       "locationHistory" : [ ],

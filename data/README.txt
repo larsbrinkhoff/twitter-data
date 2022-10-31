@@ -26,6 +26,15 @@ If Tweets have been posted in Communities and there is associated media, you can
 
 If your production includes a community_tweet file and did not include a community_tweet_media folder, this is because there was no media associated with the community_tweet file.
 ----------------------
+deleted_tweets_media
+Folder of images, videos, and/or gifs shared in the account’s deleted Tweets. Note: this folder does not include media hosted on other platforms but linked on Twitter (for example, Youtube videos).
+
+This folder contains media for Tweets that have been deleted in the last 14 days, but have not yet been deleted from our production systems as these systems have a deletion schedule of approximately 14 days.
+
+If Tweets have been produced and there is associated media, you can match the media to the deleted-tweets data file. The filename for each media file in the deleted_tweets_media folder contains a numerical ID that corresponds to a Tweet in the deleted-tweets file. By searching the deleted-tweets file for the numeric portion of the filename of the media, you can find the corresponding Tweet.
+
+If your production includes a deleted-tweets file and did not include a deleted_tweets_media folder, this is because there was no media associated with the deleted-tweets file.
+----------------------
 direct_messages_group_media
 Folder of images, videos and gifs shared in the account’s Direct Message group conversations. Note:this folder does not include media hosted on other platforms but linked on Twitter (for example, YouTube videos).
 
@@ -70,12 +79,19 @@ spaces-metadata.js
 spaces_media
 Folder containing the spaces audio files created by the account. These files can be viewed by using QuickTime or VLC Media Player (https://www.videolan.org/vlc/). VLC Media Player is an open-source application that gives you the ability to play media from your computer or a disk, or to stream it from the Web.
 ----------------------
-tweet_media
+tweets_media
 Folder of images, videos, and/or gifs shared in the account’s Tweets. Note: this folder does not include media hosted on other platforms but linked on Twitter (for example, Youtube videos).
 
-If Tweets have been produced and there is associated media, you can match the media to the Tweet data file. The filename for each media file in the tweet_media folder contains a numerical ID that corresponds to a Tweet in the Tweet file. By searching the Tweet file for the numeric portion of the filename of the media, you can find the corresponding Tweet.
+If Tweets have been produced and there is associated media, you can match the media to the Tweet data file. The filename for each media file in the tweets_media folder contains a numerical ID that corresponds to a Tweet in the Tweet file. By searching the Tweet file for the numeric portion of the filename of the media, you can find the corresponding Tweet.
 
-If your production includes a Tweet file and did not include a tweet_media folder, this is because there was no media associated with the Tweet file.
+If your production includes a Tweet file and did not include a tweets_media folder, this is because there was no media associated with the Tweet file.
+----------------------
+twitter_circle_tweet_media
+Folder of images, videos, and/or gifs shared in the account’s Tweets that are shared with a Twitter Circle. Note: this folder does not include media hosted on other platforms but linked on Twitter (for example, Youtube videos).
+
+If Tweets have been shared with a Twitter Circle and there is associated media, you can match the media to the twitter-circle-tweet data file. The filename for each media file in the twitter_circle_tweet_media folder contains a numerical ID that corresponds to a Twitter Circle Tweet in the twitter-circle-tweet file. By searching the twitter-circle-tweet file for the numeric portion of the filename of the media, you can find the corresponding Twitter Circle Tweet.
+
+If your production includes a twitter-circle-tweet file and did not include a twitter_circle_tweet_media folder, this is because there was no media associated with the twitter-circle-tweet file.
 ----------------------
 
 === IDENTIFIERS ===
@@ -123,6 +139,12 @@ screen-name-change.js
 - changedFrom: Previous screen name associated with the account.
 - changedTo: New screen name associated with the account.
 ----------------------
+sso.js
+- ssoId: Single Sign On ID for account using Google or Apple SSO
+- ssoEmail: Email associated to SSO
+- associationMethodType: Method the user used to associate to SSO, Signup or Login
+- createdAt: Time association to SSO was made
+----------------------
 
 === ONLINE ACTIVITY ===
 (Internet and other electronic network activity information, including, but not limited to, information regarding interactions with websites, applications, or advertisements)
@@ -156,6 +178,19 @@ ad-engagements.js
 - matchedTargetingCriteria: Targeting criteria that were used to run the campaign.
 - impressionTime: Date and time when the ad was viewed.
 - engagementAttributes: Type of engagement as well as date and time when it occurred.
+----------------------
+ad-free-article-visits.js
+- visitTimestamp: Date and time of when the ad-free article visit occurred.
+- url: URL of the article.
+- videoSlug: Portion of the URL that identifies a video in the article.
+- isAmp: Indicates whether the article was shown using AMP (Accelerated Mobile Pages, more info at amp.dev).
+- affiliateName: Name of the site that referred the user to the article.
+- propertyName: Name of the site the article was on.
+- duration: Duration of the visit, in seconds.
+- adsShown: Indicates whether all ads were removed from the article during the visit.
+- simpleUserAgent: The platform and device where the user viewed the article (operating system, app, device).
+- exclusionReason: The reason a visit was excluded from payments to the publisher/site.
+- referrer: URL indicating where the user came from before landing on the article.
 ----------------------
 ad-impressions.js
 - ad: Promoted Tweets the account has viewed and any associated metadata.
@@ -220,6 +255,12 @@ birdwatch-note-rating.js
 - helpfulnessLevel: Indicates whether the Twitter user finds the Birdwatch note helpful or not, if available. (Options may include but are not limited to "helpful", "somewhat helpful", "not helpful", etc.)
 - userAlias: The Birdwatch alias of the author of the Birdwatch note rating.
 ----------------------
+birdwatch-note-tombstone.js
+- noteId: Unique identifier for the Birdwatch note.
+- userId: The Twitter user ID of the author of the Birdwatch note.
+- createdAt: Day and time at which the Birdwatch note rating was created.
+- deletedAt: Day and time at which the Birdwatch note rating was deleted.
+----------------------
 birdwatch-note.js
 - noteId: Unique identifier for the Birdwatch note.
 - userId: The Twitter user ID of the author of the Birdwatch note.
@@ -247,6 +288,45 @@ branch-links.js
 - feature: Tracking parameter indicating the Twitter product surface area where the user clicked.
 - campaign: Tracking parameter indicating the name of the marketing campaign which the user clicked.
 ----------------------
+catalog-item.js
+- catalogProduct: A product linked directly to the catalog
+- productKey: Unique identifier for the product
+- productId: ID of the product provided by you
+- catalogId: Unique identifier for the catalog. It represents the catalog to which the product belongs to.
+- lastUpdatedAt: Timestamp when the product was last updated by you
+- createdFromDataSource: Source of the data when the product was first created
+- updatedFromDataSource: Source of the data when the product was last updated
+- title: The title of the product as specified by you
+- description: The description of the product as specified by you
+- productUrl: externalUrl is the url of the product as specified by you. When the product is clicked, it gets redirected to this link.  tcoUrl is the Twitter shortened url version of the external product url you provided. 
+
+- price: currencyCode is the currency code of the price of the product as specified by you. microValue is the micro value of the price. It is calculated as the actual price specified by you multiplied by 1000000.
+
+- coverMedia: twitterMediaUrl is the internal twitter domain url of the cover media. It is generated by the system when the cover media is uploaded to Twitter. externalUrl is the url to be crawled to extract cover media for the product as specified by you. 
+
+- additionalMedia: List of additional media consisting of external and internal urls. The external url is the one specified by you and the internal url is the system  generated after crawling the external url for extracting media and uploading the media in the twitter media services.
+
+- mobileUrl: externalUrl is the mobile url of the product as specified by you.  tcoUrl is the Twitter shortened url version of the external mobile url.
+
+- salePrice: currencyCode is the currency code of the sale price of the product as specified by you. microValue is the micro value of the sale price. It is calculated as the actual sale price specified by you multiplied by 1000000.
+
+- saleStartTime: Timestamp when the sale starts as specified by you
+- saleEndTime: Timestamp when the sale ends as specified by you
+- googleProductCategory: The google product category of the product as specified by you
+- customProductType: The custom product types of the product as specified by you
+- brand: The brand of the product as specified by you.
+- catalogProductGroup: A product group linked directly to the catalog
+- productGroupKey: Unique identifier for a product group
+- productGroupId: ID of the product group as specified by you
+- products: List of products belonging to this product group as specified by you
+----------------------
+commerce-catalog.js
+- catalogId: Unique identifier for the catalog
+- catalogName: The name of the catalog as specified by you
+- catalogType: The type of catalog, always set to Product
+- authorUserId: Your twitter user id
+- lastUpdatedAt: Timestamp when the catalog was last updated by you
+----------------------
 community_tweet.js
 This JSON file contains all the Tweets posted in Communities and not deleted. The definitions for each of the variables that may be included in any particular Tweet are available in our API documentation: https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update.
 ----------------------
@@ -256,6 +336,16 @@ connected-application.js
 - approvedAt: Date and time when the account authorized the application.
 - permissions: List of permissions granted to the connected application by the Twitter account. For example: read or write.
 - id: Unique identifier for the application.
+----------------------
+deleted-tweet-headers.js
+This JSON file contains metadata associated with Tweets that you have deleted, but have not yet been deleted from our production systems.
+- tweetId: Unique identifier for the Tweet
+- userId: Your Twitter user ID
+- createdAt: Tweet creation timestamp
+- deletedAt: Tweet deletion timestamp
+----------------------
+deleted-tweets.js
+The "deleted-tweets.txt" file contains Tweets that have been deleted in the last 14 days but have not yet been deleted from our production systems as these systems have a deletion schedule of approximately 14 days. The file may contain deleted edited tweets if applicable. Users can edit a tweet up to five times; as such there are up to 5 edited tweets with unique "editTweetIds," all connected by the "initialTweetID."
 ----------------------
 device-token.js
 - token: Token associated with a mobile device or web browser that was used to sign up or log in to this account through twitter.com or one of the other Twitter owned or operated apps within the last 18 months.
@@ -378,6 +468,22 @@ periscope-profile-description.js
 - description: Periscope account description ported over from the Twitter account when the shell account was created.
 - profileImageUrls: URLs of the profile images used with the Twitter account when the shell account was created.
 ----------------------
+product-drop.js
+- id: Unique identifier for a product drop
+- userId: Your twitter user id
+- productSetId: ID of the product set containing the product being dropped as specified by you
+- hashtag: Hashtag attached to the drop provided by you
+- dropTime: Timestamp when the product is going to be dropped as provided by you
+----------------------
+product-set.js
+- productSetId: Unique identifier for the product set
+- catalogId: Unique identifier for the catalog. It represents the catalog to which the product set belongs to
+- productSetType: Represents the type of the product set. It is generated during creation of product set in Shopping Manager
+- name: Name of the product set provided by you
+- description: Description of the product set provided by you
+- lastUpdatedAt: Timestamp when the product set was last updated by you
+- items: List of items that belong to this product set as provided by you. The product set item can be either a product or a product group.  itemType represents the Type of the item. The possible values are Product, ProductGroup.  itemKey represents the Key of the item. If the itemType is product, then itemKey represents productKey. If the itemType is productGroup, then itemKey represents the productGroupKey.
+----------------------
 professional_data.js
 - accountId: Unique identifier for the account.
 - professionalId: Unique identifier for the Professional account.
@@ -408,6 +514,10 @@ professional_data.js
 - minuteOpen: Minute that the venue opens
 - hourClose: Hour that the venue closes
 - minuteClose: minute that the venue closes
+- appleAppStore: URL for an Apple App Store app added to the Mobile App Spotlight
+- googlePlayStore: URL for a Google Play Store app added to the Mobile App Spotlight
+- rawUrl: URL chosen by the user to display in the link spotlight
+- ctaDisplay: Call to action string chosen by the user to display in the link spotlight
 ----------------------
 profile.js
 - bio: Current account bio as displayed on the profile, if the user has provided one.
@@ -433,6 +543,23 @@ saved-search.js
 - savedSearchId: Unique identifier for a saved search.
 - query: Actual search query entered by the account.
 ----------------------
+shop-module.js
+- moduleId: Unique identifier of the shop spotlight module. 
+- userId: Your twitter user id
+- isEnabled: Represents if the module is enabled by you. 
+- productSetIds: list of product set ids provided by you. Items from this set will be displayed in the shop module
+- displayType: Represents the display type of the shop module. Possible values: Carousel, Button
+----------------------
+shopify-account.js
+- shopDomain: Unique identifier for a Shopify account
+- termsOfServiceAccepted: Represents whether the shopify app terms of of service is accepted by you
+- appOnboardingComplete: Represents whether all the onboarding steps are completed by you
+- userId: Your twitter user id
+- catalogId: ID of the catalog to which the shopify account is linked
+- shopCurrency: The shopify account currency when the account is first synced with Twitter
+- createdAt: Timestamp when the account was first linked to Twitter
+- updatedAt: Timestamp when the account was last updated with Twitter
+----------------------
 smartblock.js
 Accounts smartblocked by Twitter on the User's behalf, when the User had Safety mode turned on. Includes metadata.
 - accountId: Unique identifiers of accounts currently blocked by the account.
@@ -442,13 +569,43 @@ Accounts smartblocked by Twitter on the User's behalf, when the User had Safety 
 - expiresAt: Timestamp that the Smartblock expires.
 - ttl: smartblock duration in string format (1 day, 7 days, etc.)
 ----------------------
-tweet.js
-This JSON file contains all the Tweets posted and not deleted. The definitions for each of the variables that may be included in any particular Tweet are available in our API documentation: https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update.
+tweet-headers.js
+This JSON file contains metadata associated with Tweets which have not been deleted.
+- tweetId: Unique identifier for the Tweet
+- userId: Your Twitter user ID
+- createdAt: Tweet creation timestamp
 ----------------------
 tweetdeck.js
 - title: The title of the deck
 - columns: The columns in the deck
 - pathname: The type of each column. For some column types, it contains extra attributes, such as query in /search?q=london, or list-id in /list/27456987
+----------------------
+tweets.js
+This JSON file contains available Tweets which have not been deleted and it includes edited tweets if applicable. Users can edit a tweet up to five times; as such there are up to 5 edited tweets with unique “editTweetIds,” all connected by the “initialTweetID.” The definitions for each of the variables that may be included in any particular Tweet are available in our API documentation: https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update.
+----------------------
+twitter-article-metadata.js
+- authorId: Twitter ID of the author of this Twitter article.
+- visibility: State of the Twitter article: Draft or Published
+- createdAtMs: Timestamp of the creation of this Twitter article
+- updatedAtMs: Timestamp of the last update of this Twitter article
+- publishedAtMs: Timestamp of the first time this Twitter article was published
+- lastPublishedAtMs: Timestamp of the last time this Twitter article was published
+----------------------
+twitter-article.js
+- id: Unique identifier for the Twitter article.
+- title: The title of the article as specified by you
+- data: Content of the article split by sections with each has details for the text content, mentions, hashtags and styles applied to the text.
+----------------------
+twitter-circle-tweet.js
+This JSON file contains all the Tweets shared with a Twitter Circle and not deleted. The definitions for each of the variables that may be included in any particular Tweet are available in our API documentation: https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update.
+----------------------
+twitter-shop.js
+- shopId: Unique identifier for a Shop
+- userId: Your twitter user id
+- isEnabled: Represents if the shop is enabled by you
+- name: Name of the shop provided by you
+- description: Description of the shop provided by you
+- productSetIds: list of product set ids provided by you. Items from this set will be displayed in the shop
 ----------------------
 user-link-clicks.js
 - tweetId: Unique identifier for the Tweet the user clicked on when using Twitter on iOS or Android.
