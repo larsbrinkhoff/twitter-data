@@ -1,6 +1,27 @@
 window.YTD.like.part0 = [
   {
     "like" : {
+      "tweetId" : "1438316560456814601",
+      "fullText" : "@nwolovick @moorejh Three-year-old Dina Gamrath looks at a computer on September 1971  (Photo by Erik Holmberg/Keystone/Getty Images) https://t.co/oJnofobEeA",
+      "expandedUrl" : "https://twitter.com/i/web/status/1438316560456814601"
+    }
+  },
+  {
+    "like" : {
+      "tweetId" : "1682277724612698112",
+      "fullText" : "@larsbrinkhoff Lower than C!",
+      "expandedUrl" : "https://twitter.com/i/web/status/1682277724612698112"
+    }
+  },
+  {
+    "like" : {
+      "tweetId" : "8342451052",
+      "fullText" : "If I became a nerdcore rapper, I'd call myself MC 68000.",
+      "expandedUrl" : "https://twitter.com/i/web/status/8342451052"
+    }
+  },
+  {
+    "like" : {
       "tweetId" : "1446650453165547520",
       "fullText" : "@snowyote @twylo I sold my soul to Google, so I don't care, but :\nhttps://t.co/mecdRsHPBu\nmight help ?",
       "expandedUrl" : "https://twitter.com/i/web/status/1446650453165547520"

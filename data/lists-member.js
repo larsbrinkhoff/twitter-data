@@ -1,6 +1,11 @@
 window.YTD.lists_member.part0 = [
   {
     "userListInfo" : {
+      "url" : "https://twitter.com/deadjoe/lists/1672925771919409154"
+    }
+  },
+  {
+    "userListInfo" : {
       "url" : "https://twitter.com/faramunga/lists/mireru-11103"
     }
   },
@@ -46,17 +51,17 @@ window.YTD.lists_member.part0 = [
   },
   {
     "userListInfo" : {
+      "url" : "https://twitter.com/amca1975/lists/retro"
+    }
+  },
+  {
+    "userListInfo" : {
       "url" : "https://twitter.com/enf/lists/really-following"
     }
   },
   {
     "userListInfo" : {
       "url" : "https://twitter.com/gutt3r/lists/emacs1"
-    }
-  },
-  {
-    "userListInfo" : {
-      "url" : "https://twitter.com/menadeau1/lists/vintage-computers"
     }
   }
 ]
